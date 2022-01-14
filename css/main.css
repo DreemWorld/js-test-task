@@ -1,0 +1,93 @@
+html {
+  font-family: Roboto, sans-serif;
+  --primary-color: #4c9304;
+  --secondary-color: #333333;
+}
+
+body {
+  background: linear-gradient(45deg, #FFCFBA, #CFFDE8);
+}
+
+* {
+  color: var(--secondary-color);
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 2.25em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 1.25em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+section {
+  margin-bottom: 3em;
+  position: relative;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cv img {
+  width: 300px;
+  height: 300px;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__type {
+  min-width: 80px;
+}
+
+.contact__value img {
+  width: 20px;
+  height: 20px;
+}
+
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.education__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.education__name {
+  font-weight: bold;
+}
+
+.education__name img {
+  width: 30px;
+  height: 30px;
+}
+
+.comment {
+  size: "50000";
+}
